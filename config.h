@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-//static char *font = "Liberation Mono:pixelsize=15:antialias=true:autohint=true";
-static char *font = "DejaVuSansMonoForPowerline Nerd Font:size=11:antialias=true:autohint=true";
+static char *font = "Hack:pixelsize=17:antialias=true:autohint=true";
+//static char *font = "DejaVuSansMonoForPowerline Nerd Font:size=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -87,6 +87,8 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
+
+    //"#282a36",
     "#000000",
     "#f07178",
     "#c3e88d",
@@ -95,7 +97,7 @@ static const char *colorname[] = {
     "#c792ea",
     "#89ddff",
     "#d0d0d0",
-//	/* 8 bright colors */
+
     "#434758",
     "#ff8b92",
     "#ddffa7",
@@ -104,6 +106,25 @@ static const char *colorname[] = {
     "#e1acff",
     "#a3f7ff",
     "#ffffff",
+
+
+//    "#000000",
+//    "#f07178",
+//    "#c3e88d",
+//    "#ffcb6b",
+//    "#82aaff",
+//    "#c792ea",
+//    "#89ddff",
+//    "#e6e6dc",
+////	/* 8 bright colors */
+//    "#434758",
+//    "#ff8b92",
+//    "#ddffa7",
+//    "#ffe585",
+//    "#9cc4ff",
+//    "#e1acff",
+//    "#a3f7ff",
+//    "#ffffff",
 
 //	"black",
 //	"red3",
